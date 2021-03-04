@@ -33,15 +33,3 @@ def everyOther(word):
 def backwards(word):
     i = -1
     print("Your word written backwards is: " + word[::i])
-
-
-def main():
-    word = input("Give a word: ")
-    firstFive(word)
-    lastFive(word)
-    middleFour(word)
-    everyOther(word)
-    backwards(word)
-
-
-main()
