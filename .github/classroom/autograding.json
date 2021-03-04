@@ -3,7 +3,7 @@
     {
       "name": "Basic Unit testing",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest",
+      "run": "pytest -s",
       "input": "",
       "output": "",
       "comparison": "included",
