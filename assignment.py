@@ -4,25 +4,25 @@
 
 def firstFive(word):
     # Hint - This line needs to be i = 5
-    i = len(word)
+    i = 5
     print("The first five letters of your word are: " + word[:i])
 
 
 def lastFive(word):
     # For this one, you are going to need to keep the len(word)
-    i = len(word) - 0
+    i = len(word) - 5
     print("The five last letters are: " + word[i:])
 
 
 def middleFour(word):
-    i = 0
-    n = len(word)
+    i = 1
+    n = 5
     print("Letters 2, 3, 4, and 5 are: " + word[i:n])
 
 
 def everyOther(word):
-    i = 0
-    n = 1
+    i = 1
+    n = 2
 
     print(
         "Every other letter of the word, starting from the second letter are: "
@@ -31,7 +31,7 @@ def everyOther(word):
 
 
 def backwards(word):
-    i = 1
+    i = -1
     print("Your word written backwards is: " + word[::i])
 
 
