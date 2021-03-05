@@ -16,7 +16,7 @@ def lastFive(word):
 
 def middleFour(word):
     i = 1
-    n = 5
+    n = 4
     return word[i:n]
 
 
